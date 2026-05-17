@@ -1,26 +1,29 @@
 * {
     margin: 0;
-    font-family: "Open Sans", sans-serif , Arial;
+    font-family: "Open Sans", sans-serif, Arial;
     border: border-box;
 }
 
 .open-sans-uniquifier {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
+/* navbar */
 .navbar {
     display: flex;
     color: #FFFFFF;
     background-color: #0f1111;
     width: 100%;
     height: 60px;
+    align-items: center;
 }
 
+/* nav-logo */
 .nav-logo {
     height: 50px;
     width: 114px;
@@ -41,6 +44,37 @@
     border: 1px solid white;
 }
 
+/* nav-address */
 .nav-address {
-    color: white
+    color: white;
+}
+
+#addressFirst {
+    font-size: 0.8rem;
+    color: #CCCCCC;
+    margin-left: 18px;
+}
+
+#addressSecond {
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* nav-search */
+.nav-search {
+    display: flex;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+}
+
+.search-icon {
+    background-color: #ffb040;
 }
