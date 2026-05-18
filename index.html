@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Flag Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -21,20 +26,24 @@
 <body>
     <header>
         <div class="navbar">
+
             <!-- nav-logo -->
             <div class="nav-logo border">
                 <div id="logo"></div>
             </div>
+
             <!-- nav-address -->
             <div class="nav-address border">
                 <p id="addressFirst">Deliver to</p>
                 <div class="add-icon">
-                    <i class="fa-solid fa-location-dot"></i>
+                    <!-- <i class="fa-solid fa-location-dot"></i> -->
+                    <i class="bi bi-geo-alt"></i>
                     <p id="addressSecond">India</p>
                 </div>
             </div>
+
             <!-- nav-search -->
-            <div class="nav-search border">
+            <div class="nav-search">
                 <select class="search-select">
                     <option>All</option>
                 </select>
@@ -44,10 +53,21 @@
                 </div>
             </div>
 
+            <!-- nav-lang -->
+            <div class="nav-lang border">
+                <div class="lang-icon">
+                    <span class="fi fi-us"></span>
+                </div>
+                <div class="lang-name">EN</div>
+                <div class="lang-dropdown">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
 
 
 
-            <!-- End -->
+
+            <!-- navbar completes here -->
         </div>
     </header>
 </body>
