@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
+    <!-- Flag Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/7.5.0/css/flag-icons.min.css"
+        integrity="sha512-+WVTaUIzUw5LFzqIqXOT3JVAc5SrMuvHm230I9QAZa6s+QRk8NDPswbHo2miIZj3yiFyV9lAgzO1wVrjdoO4tw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -46,6 +50,12 @@
             <div class="nav-search">
                 <select class="search-select">
                     <option>All</option>
+                    <option>Books</option>
+                    <option>Electronics</option>
+                    <option>Clothing</option>
+                    <option>Home & Kitchen</option>
+                    <option>Sports & Outdoors</option>
+                    <option>Beauty & Personal Care</option>
                 </select>
                 <input placeholder="Search Amazon" class="search-input">
                 <div class="search-icon">
@@ -55,14 +65,121 @@
 
             <!-- nav-lang -->
             <div class="nav-lang border">
-                <div class="lang-icon">
+                <div class="nav-lang-flag">
                     <span class="fi fi-us"></span>
                 </div>
-                <div class="lang-name">EN</div>
-                <div class="lang-dropdown">
-                    <i class="fa-solid fa-caret-down"></i>
+                <div>
+                    <select class="lang-select">
+                        <option>EN - English</option>
+                        <option>AF - Afrikaans</option>
+                        <option>SQ - Albanian</option>
+                        <option>AM - Amharic</option>
+                        <option>AR - العربية</option>
+                        <option>HY - Հայերեն</option>
+                        <option>AZ - Azərbaycan dili</option>
+                        <option>EU - Euskara</option>
+                        <option>BE - Беларуская</option>
+                        <option>BN - বাংলা</option>
+                        <option>BS - Bosanski</option>
+                        <option>BG - Български</option>
+                        <option>CA - Català</option>
+                        <option>CEB - Cebuano</option>
+                        <option>NY - Chichewa</option>
+                        <option>ZH - 中文</option>
+                        <option>CO - Corsu</option>
+                        <option>HR - Hrvatski</option>
+                        <option>CS - Čeština</option>
+                        <option>DA - Dansk</option>
+                        <option>NL - Nederlands</option>
+                        <option>EO - Esperanto</option>
+                        <option>ET - Eesti</option>
+                        <option>TL - Filipino</option>
+                        <option>FI - Suomi</option>
+                        <option>FR - Français</option>
+                        <option>FY - Frysk</option>
+                        <option>GL - Galego</option>
+                        <option>KA - ქართული</option>
+                        <option>DE - Deutsch</option>
+                        <option>EL - Ελληνικά</option>
+                        <option>GU - ગુજરાતી</option>
+                        <option>HT - Kreyòl ayisyen</option>
+                        <option>HA - Hausa</option>
+                        <option>HAW - ʻŌlelo Hawaiʻi</option>
+                        <option>HE - עברית</option>
+                        <option>HI - हिन्दी</option>
+                        <option>HMN - Hmong</option>
+                        <option>HU - Magyar</option>
+                        <option>IS - Íslenska</option>
+                        <option>IG - Igbo</option>
+                        <option>ID - Bahasa Indonesia</option>
+                        <option>GA - Gaeilge</option>
+                        <option>IT - Italiano</option>
+                        <option>JA - 日本語</option>
+                        <option>JV - Basa Jawa</option>
+                        <option>KN - ಕನ್ನಡ</option>
+                        <option>KK - Қазақ тілі</option>
+                        <option>KM - ខ្មែរ</option>
+                        <option>KO - 한국어</option>
+                        <option>KU - Kurdî</option>
+                        <option>KY - Кыргызча</option>
+                        <option>LO - ລາວ</option>
+                        <option>LA - Latina</option>
+                        <option>LV - Latviešu</option>
+                        <option>LT - Lietuvių</option>
+                        <option>LB - Lëtzebuergesch</option>
+                        <option>MK - Македонски</option>
+                        <option>MG - Malagasy</option>
+                        <option>MS - Bahasa Melayu</option>
+                        <option>ML - മലയാളം</option>
+                        <option>MT - Malti</option>
+                        <option>MI - Māori</option>
+                        <option>MR - मराठी</option>
+                        <option>MN - Монгол</option>
+                        <option>MY - မြန်မာ</option>
+                        <option>NE - नेपाली</option>
+                        <option>NO - Norsk</option>
+                        <option>OR - ଓଡ଼ିଆ</option>
+                        <option>PS - پښتو</option>
+                        <option>FA - فارسی</option>
+                        <option>PL - Polski</option>
+                        <option>PT - Português</option>
+                        <option>PA - ਪੰਜਾਬੀ</option>
+                        <option>RO - Română</option>
+                        <option>RU - Русский</option>
+                        <option>SM - Gagana Samoa</option>
+                        <option>GD - Gàidhlig</option>
+                        <option>SR - Српски</option>
+                        <option>ST - Sesotho</option>
+                        <option>SN - Shona</option>
+                        <option>SD - سنڌي</option>
+                        <option>SI - සිංහල</option>
+                        <option>SK - Slovenčina</option>
+                        <option>SL - Slovenščina</option>
+                        <option>SO - Soomaali</option>
+                        <option>ES - Español</option>
+                        <option>SU - Basa Sunda</option>
+                        <option>SW - Kiswahili</option>
+                        <option>SV - Svenska</option>
+                        <option>TG - Тоҷикӣ</option>
+                        <option>TA - தமிழ்</option>
+                        <option>TE - తెలుగు</option>
+                        <option>TH - ไทย</option>
+                        <option>TR - Türkçe</option>
+                        <option>UK - Українська</option>
+                        <option>UR - اردو</option>
+                        <option>UG - ئۇيغۇرچە</option>
+                        <option>UZ - Oʻzbek</option>
+                        <option>VI - Tiếng Việt</option>
+                        <option>CY - Cymraeg</option>
+                        <option>XH - isiXhosa</option>
+                        <option>YI - ייִדיש</option>
+                        <option>YO - Yorùbá</option>
+                        <option>ZU - isiZulu</option>
+                    </select>
                 </div>
             </div>
+
+
 
 
 
