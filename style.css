@@ -149,3 +149,27 @@
     height: 15px;
     font-weight: bold;
 }
+
+/* Returns & Orders */
+#ordersFirst {
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    width: 70.41px;
+    height: 14px;
+}
+
+#ordersSecond {
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    width: 113.53px;
+    height: 15px;
+    font-weight: bold;
+}
+
+/* Returns & Orders */
+.nav-orders {
+    align-content: center;
+    align-items: center;
+    width: 76.95px;
+    height: 50px;
+}
