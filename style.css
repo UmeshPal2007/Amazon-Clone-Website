@@ -248,3 +248,37 @@
 .hero-message a {
     color: #2162A1;
 }
+
+.shop-sections {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: purple;
+    height: 900px;
+    width:98.4%;
+    padding: 20px 0px 20px 0px;
+    margin: 10.400px;
+}
+
+.shop-section1 {
+    display: flex;
+}
+
+.box {
+    color: red;
+}
+
+
+
+
+.box1 {
+    background-color: rgb(240, 233, 114);
+}
+.box2 {
+    background-color: rgb(240, 233, 114);
+}
+.box3 {
+    background-color: rgb(240, 233, 114);
+}
+.box4 {
+    background-color: rgb(240, 233, 114);
+}
