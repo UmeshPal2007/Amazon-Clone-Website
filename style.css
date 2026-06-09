@@ -291,8 +291,46 @@
     height: 322px;
 }
 
+footer {
+    margin-top: 15px;
+}
+
 .foot-panel1 {
-    Height: 50px;
+    Height: 45px;
     color: #FFFFFF;
     background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
 }
+
+.foot-panel2 {
+    color: #DDDDDD;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    height: 300px;
+}
+
+ul a {
+    display: block;
+}
+
+.foot-panel3 {
+    background-color: #232F3E;
+    height: 70px;
+    border-top: 0.1px solid #DDDDDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel3 img {
+    height: 75px;
+    width: 150px;
+}
+
+
+/* Adding Responsiveness */
