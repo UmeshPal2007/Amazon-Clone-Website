@@ -328,6 +328,8 @@ ul a {
 }
 
 .foot-panel3 img {
+    display: flex;
+    align-items: center;
     height: 75px;
     width: 150px;
 }
